@@ -1,8 +1,23 @@
 [package]
 name = "company_manager"
 version = "1.0.0"
+description = "A terminal application for managing a company's employees, based on departments"
 edition = "2024"
 authors = ["LaLunaInSky"]
 license = "MIT"
 
 [dependencies]
+
+[package.metadata.deb]
+maintainer = "LaLanuInSky <https://lalunainsky.com/>"
+copyright = "2026, LaLunaInSky <https://lalunainsky.com/>"
+license-file = ["LICENSE", "4"]
+extended-description = """\
+A terminal application for managing a company's employees, based on departments.
+"""
+depends = "$auto"
+section = "miscellaneous"
+priority = "optional"
+assets = [
+    ["target/release/company_manager", "usr/bin", "755"]
+]
