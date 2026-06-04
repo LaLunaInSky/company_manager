@@ -1,7 +1,7 @@
 # Company Manager
 ## About this Project
 A terminal application for managing a company's employees, based on departments.
-* [**Project Page**](https://lalunainsky.com/company_manager).
+* [**Project Page**](https://lalunainsky.com/projetos/company_manager).
 
 This applicattion was developed for linux terminals and includes a .deb installer
 * [**Installer**](https://github.com/LaLunaInSky/company_manager/releases/tag/v1.0.0).
